@@ -59,15 +59,23 @@ main {
 }
 
 /* Project box styles with light green background */
+.project-preview {
+  grid-column: 1 / -1; /* Span all columns */
+  display: grid;
+  grid-template-columns: 1fr; /* One column for full width */
+  gap: 1rem;
+}
+
+/* Project box specific styles */
 .project-preview .box {
+  display: flex;
+  align-items: flex-start; /* Align items to the start of the flex container */
+  justify-content: start;
+  gap: 1rem;
   background: #e8f5e9; /* Light green background for project boxes */
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  display: flex;
-  align-items: center;
-  justify-content: start;
-  gap: 1rem;
 }
 
 .project-preview .box img {
@@ -77,12 +85,14 @@ main {
 }
 
 .project-preview .box .description {
+  display: flex; /* Use flex layout */
+  flex-direction: column; /* Stack elements vertically */
+  justify-content: space-between; /* Space between items */
   width: 50%; /* Description takes the remaining half */
-  padding: 0 1rem;
-  color: #333; /* Dark text for legibility on light green background */
+  padding: 0 1rem; /* Add some padding around the text */
 }
 
-/* Neon yellow buttons */
+/* Button style adjustment */
 .button {
   background-color: #CDDC39; /* Neon yellow background */
   color: #333; /* Dark text for legibility */
@@ -91,9 +101,10 @@ main {
   border-radius: 5px;
   cursor: pointer;
   font-weight: bold;
-  text-align: center; /* Center the text in the button */
-  display: inline-block; /* Allows the button to be used inside <a> tags */
-  text-decoration: none; /* Removes underline from links */
+  text-align: center;
+  margin-top: 1rem; /* Add margin to the top of the button */
+  width: auto; /* Set width to auto to prevent stretching */
+  align-self: flex-start; /* Align the button to the start of the flex container */
 }
 
 /* Responsive adjustments */
