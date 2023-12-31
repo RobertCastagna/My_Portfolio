@@ -50,26 +50,21 @@ header nav a {
 /* Main content styles */
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(2, 1fr); /* This sets two columns */
   gap: 2rem;
   padding: 2rem 5%;
 }
 
-.box {
-  background: #f9f9f9;
-  border-radius: 10px;
-  padding: 1rem;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
-
+/* Ensure the boxes are not stretched over two columns */
 .box.large {
-  grid-column: span 2;
+  grid-column: span 1;
 }
 
-/* Style for the project previews */
+/* Style for the project previews to be full-width */
 .project-preview {
+  grid-column: 1 / -1; /* This makes the project preview span all columns */
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* This sets three columns for projects */
   gap: 1rem;
 }
 
