@@ -58,6 +58,15 @@ main {
   padding: 2rem 5%;
 }
 
+
+.blog-preview, .about-me {
+  background: #2d2d2d; /* Dark grey background */
+  color: white; /* White text for legibility */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Box shadow for depth */
+  padding: 1rem; /* Padding inside the boxes */
+  border-radius: 10px; /* Rounded corners */
+}
+
 /* Project box styles with light green background */
 .project-preview {
   grid-column: 1 / -1; /* Span all columns */
