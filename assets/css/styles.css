@@ -60,9 +60,6 @@ main {
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 /* Project preview styles, each project is full width of its container */
@@ -73,6 +70,25 @@ main {
   gap: 1rem;
 }
 
+/* Project box specific styles */
+.project-preview .box {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 1rem;
+}
+
+.project-preview .box img {
+  width: 50%; /* Image takes up half the box */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Cover the area without stretching */
+}
+
+.project-preview .box .description {
+  width: 50%; /* Description takes the remaining half */
+  padding: 0 1rem; /* Add some padding around the text */
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   main {
@@ -81,5 +97,19 @@ main {
 
   .project-preview {
     grid-template-columns: 1fr; /* Stack projects on small screens */
+  }
+
+  .project-preview .box {
+    flex-direction: column; /* Stack image and description on top of each other */
+  }
+
+  .project-preview .box img {
+    width: 100%; /* Image takes full width on small screens */
+    max-height: 200px; /* Limit image height on small screens */
+  }
+
+  .project-preview .box .description {
+    width: 100%; /* Description stacks below image on small screens */
+    padding: 1rem;
   }
 }
