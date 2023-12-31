@@ -1,1 +1,14 @@
 theme: minima
+
+minima:
+  # ... other settings ...
+
+  # Navigation links in the header
+  header_links:
+    - title: "Home"
+      url: "/"
+    - title: "Blog"
+      url: "/blog/"
+    - title: "About"
+      url: "/about/"
+    # Add more links here
