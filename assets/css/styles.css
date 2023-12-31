@@ -14,7 +14,7 @@ body {
 
 /* Header styles */
 header {
-  background: #2d2d2d; /* Dark grey for header, no change needed */
+  background: #056F03; /* Dark grey for header, no change needed */
   color: white; /* Text color for header, no change needed */
   display: flex;
   justify-content: space-between;
