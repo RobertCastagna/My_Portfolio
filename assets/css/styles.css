@@ -4,14 +4,18 @@ body, h1, h2, h3, p, ul, li, a {
   padding: 0;
   list-style: none;
   text-decoration: none;
-  color: #333;
   font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #ffffff; /* Setting the background to white */
+  color: #333; /* Primary text color */
 }
 
 /* Header styles */
 header {
-  background: #fff;
-  border-bottom: 1px solid #eee;
+  background: #2d2d2d; /* Dark background for the header */
+  color: white; /* White text color */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,7 +25,6 @@ header {
 header .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333;
 }
 
 header nav {
@@ -30,7 +33,7 @@ header nav {
 }
 
 header nav a {
-  color: #333;
+  color: white; /* White text for navigation links */
   text-transform: uppercase;
   font-size: 0.9rem;
 }
@@ -56,10 +59,21 @@ main {
 }
 
 .box {
-  background: #f9f9f9;
+  background: #f0f0f0; /* Light grey background for the boxes */
   border-radius: 10px;
   padding: 1rem;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Adding color to buttons or call-to-action elements */
+.button {
+  background-color: #CDDC39; /* Neon yellow background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
 }
 
 /* Project preview styles, each project is full width of its container */
@@ -76,6 +90,7 @@ main {
   align-items: center;
   justify-content: start;
   gap: 1rem;
+  background: #ffffff; /* White background for project boxes */
 }
 
 .project-preview .box img {
