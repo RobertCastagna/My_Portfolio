@@ -74,9 +74,15 @@ main {
 
 /* Custom styles for about page */
 .about-section {
-  text-align: center;
-  margin-bottom: 2rem; /* Adjust as needed */
+  text-align: center; /* Centers text */
+  display: flex;
+  flex-direction: column; /* Stacks items vertically */
+  align-items: center; /* Centers flex items horizontally */
+  justify-content: center; /* Centers flex items vertically if there's extra space */
+  margin: 0 auto; /* Applies auto margins on both sides */
+  max-width: 960px; /* Optional: sets a max width for the section */
 }
+
 
 .about-description {
   margin-top: 1rem; /* Space between the image and the text */
