@@ -1,6 +1,6 @@
-theme: reverie
+remote_theme: jekyll-theme-reverie
 
-minima:
+
   # ... other settings ...
 
   # Navigation links in the header
