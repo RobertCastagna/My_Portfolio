@@ -34,7 +34,11 @@
     <img src="/GitHub_Pages/assets/images/dagster.PNG" alt="Dagster API Scraping">
     <div class="description">
       <h3>Data Orchestration Project</h3>
-      <p>Description for Project 2...</p>
+      <p>This is a data pipeline orchestrated by Dagster leveraging two API's, Snowflake storage and a linear regression model. The process reads the top 20 holdings
+        of the S&P 500 index from one API, then sends that data to IEX Cloud's API to retrieve the price history. All historical data lives in Snowflake and is read on command
+        into a lin. regression model to predict future movement in price. The results of this model output are moved to S3, where they can be built into various other applications.
+        The motivation for this project was to learn how to leverage a workflow orchestration tool to have a level of abstracted control that stemmed across applications in a large
+      corporate setting. This problem arose in my job and I decided to experiment with potential technologies as a solution and built out a proof of concept.</p>
       <a href="https://github.com/RobertCastagna/IEXCloud" class="button">View on GitHub</a>
     </div>
   </div>
