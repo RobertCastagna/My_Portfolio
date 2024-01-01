@@ -72,6 +72,10 @@ main {
   padding: 2rem 5%;
 }
 
+main .about-section {
+  grid-column: 1 / -1; /* This will make it span all the columns in the grid */
+}
+
 /* Custom styles for about page */
 .about-section {
   display: flex;
@@ -80,7 +84,6 @@ main {
   justify-content: center;
   margin: auto;
   width: 100%; /* This ensures the flex container takes up the full width */
-
 }
 
 .about-image {
