@@ -1,5 +1,6 @@
 ---
-layout: reverie
+layout: default
+theme: reverie
 title: Blog
 ---
 
