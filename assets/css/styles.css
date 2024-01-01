@@ -37,6 +37,7 @@ header nav a {
   color: white; /* Navigation links in white for legibility */
   text-transform: uppercase;
   font-size: 0.9rem;
+  padding: 0 1rem; 
 }
 
 .social-links {
