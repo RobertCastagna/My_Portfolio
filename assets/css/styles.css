@@ -74,13 +74,13 @@ main {
 
 /* Custom styles for about page */
 .about-section {
-  display: flex;
-  flex-direction: column; /* Stack items vertically */
-  align-items: center; /* Center items horizontally */
-  justify-content: center; /* Centers items vertically within the flex container */
-  text-align: center;
-  margin: auto; /* Centers the flex container itself horizontally on the page */
-  max-width: 960px; /* Adjust this value based on your design requirements */
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  width: 100%; /* This ensures the flex container takes up the full width */
+
 }
 
 .about-image {
