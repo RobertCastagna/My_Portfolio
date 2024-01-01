@@ -52,11 +52,11 @@ header nav a {
 }
 
 .social-links .linkedin {
-  background-image: url('/GitHub_Pages/images/linkedin-logo.png');
+  background-image: url('/GitHub_Pages/assets/images/linkedin-logo.png');
 }
 
 .social-links .github {
-  background-image: url('/GitHub_Pages/images/github-logo.png');
+  background-image: url('/GitHub_Pages/assets/images/github-logo.png');
 }
 
 /* Main content styles */
