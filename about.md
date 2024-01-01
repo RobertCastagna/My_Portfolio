@@ -3,6 +3,19 @@ layout: page
 title: About Me
 ---
 
+<style>
+  /* Custom styles for about page */
+  .about-image {
+    width: 25%; /* Adjust the width as needed */
+    border-radius: 50%; /* Creates a circular shape */
+    border: 4px solid #ffffff; /* Adjust border color and size as needed */
+    display: block; /* Makes it a block element to apply margin */
+    margin: 0 auto 20px auto; /* Centers the image and adds space below it */
+    float: left; /* Aligns the image to the left */
+    margin-right: 20px; /* Adds space between the image and the text */
+  }
+</style>
+
 <img src="/GitHub_Pages/assets/images/mypicture.JPG" alt="Robert Castagna" class="about-image">
 
 I'm Robert Castagna, a Data Engineer based in Toronto. I specialize in client analytics and administrative reporting. My day-to-day involves building and maintaining 
