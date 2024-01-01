@@ -41,6 +41,7 @@ header nav a {
 .social-links {
   display: flex;
   gap: 1rem;
+  margin-left: auto;
 }
 
 .social-links a {
@@ -48,6 +49,14 @@ header nav a {
   width: 20px;
   height: 20px;
   background-size: contain;
+}
+
+.social-links .linkedin {
+  background-image: url('/GitHub_Pages/images/linkedin-logo.png');
+}
+
+.social-links .github {
+  background-image: url('/GitHub_Pages/images/github-logo.png');
 }
 
 /* Main content styles */
