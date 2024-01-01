@@ -74,22 +74,23 @@ main {
 
 /* Custom styles for about page */
 .about-section {
-  text-align: center; /* Centers text */
   display: flex;
-  flex-direction: column; /* Stacks items vertically */
-  align-items: center; /* Centers flex items horizontally */
-  justify-content: center; /* Centers flex items vertically if there's extra space */
-  margin: 0 auto; /* Applies auto margins on both sides */
-  max-width: 960px; /* Optional: sets a max width for the section */
+  justify-content: center; /* Centers the content horizontally */
+  align-items: center; /* Aligns items vertically */
+  flex-wrap: wrap; /* Allows items to wrap to the next line on small screens */
+  gap: 20px; /* Adds space between the image and text */
+  text-align: center;
 }
 
 
-.about-description {
+.about-section .about-description {
   margin-top: 1rem; /* Space between the image and the text */
-  /* Additional styling as needed */
+  display: flex; /* This will allow text to be inline */
+  flex-direction: column; /* Stacks text vertically */
+  align-items: center; /* Centers the text */
 }
 
-.about-image {
+.about-section .about-image {
   width: 25%; /* Adjust the width as needed */
   border-radius: 50%; /* Creates a circular shape */
   border: 4px solid #ffffff; /* Adjust border color and size as needed */
