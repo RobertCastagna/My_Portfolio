@@ -29,7 +29,8 @@ header .logo {
 
 header nav {
   display: flex;
-  gap: 2rem;
+  justify-content: center; /* This will center the nav links */
+  flex-grow: 1; /* Allows nav to take up available space */
 }
 
 header nav a {
@@ -41,7 +42,6 @@ header nav a {
 .social-links {
   display: flex;
   gap: 1rem;
-  margin-left: auto;
 }
 
 .social-links a {
