@@ -64,6 +64,11 @@ header nav a {
   background-image: url('/GitHub_Pages/assets/images/github-logo.png');
 }
 
+.social-links .huggingface {
+  background-image: url('/GitHub_Pages/assets/images/hf-logo.png');
+}
+
+
 /* Main content styles */
 main {
   display: grid;
