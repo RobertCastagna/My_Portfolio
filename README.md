@@ -1,4 +1,3 @@
-Check out the page [HERE]([https://gh.io/mit](https://robertcastagna.github.io/GitHub_Pages/))
 
 
 <header>
@@ -12,7 +11,7 @@ Check out the page [HERE]([https://gh.io/mit](https://robertcastagna.github.io/G
 
 # GitHub Pages
 
-_Create a site or blog from your GitHub repositories with GitHub Pages._
+_Check out the page [HERE]([https://gh.io/mit](https://robertcastagna.github.io/GitHub_Pages/))_
 
 </header>
 
