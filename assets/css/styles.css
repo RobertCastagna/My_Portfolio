@@ -150,6 +150,22 @@ main .about-section {
   padding: 0 1rem;
 }
 
+.project-preview .box .description .project-title {
+  position: relative;
+  padding-right: 100px; /* Adjust space for the date */
+}
+
+.project-preview .box .description .project-dates {
+  position: absolute;
+  right: 10px; /* Adjust spacing from the right edge */
+  top: 0; /* Align with the top of the title */
+  background: #FFF; /* Change if you want a different background */
+  color: #17332d; /* Matching the header color */
+  padding: 2px 8px; /* Small padding around the text */
+  border-radius: 5px; /* Optional: if you want rounded corners */
+  font-size: 0.8rem; /* Smaller font size for the dates */
+}
+
 /* Button style adjustment */
 .button {
   background-color: #e4f222; /* Neon yellow background */
