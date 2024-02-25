@@ -11,7 +11,7 @@
 
 # GitHub Pages
 
-_Check out the page [HERE]([https://gh.io/mit](https://robertcastagna.github.io/GitHub_Pages/))_
+_Check out the page [HERE](https://robertcastagna.github.io/GitHub_Pages/)_
 
 </header>
 
